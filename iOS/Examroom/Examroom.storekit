@@ -1,0 +1,40 @@
+{
+  "identifier" : "ExamroomProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "examroom_group",
+      "localizations" : [],
+      "name" : "Examroom Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "examroom_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Map pin and travel-time reminder per exam",
+              "displayName" : "Examroom Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.examroom.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Examroom Pro Monthly",
+          "subscriptionGroupID" : "examroom_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
